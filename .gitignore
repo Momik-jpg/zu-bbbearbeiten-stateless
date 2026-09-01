@@ -1,2 +1,19 @@
-__pycache__
+__pycache__/
+*.py[cod]
 *~
+
+# Local Python environment
+.venv/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration and runtime data
+.env
+instance/
+
+# Build output
+build/
+dist/
